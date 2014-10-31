@@ -1,0 +1,1005 @@
+=============================================================================
+Primeiras instalacoes para o fedora 20
+
+10 coisas para fazer depois de instalar o fedora
+http://newsmade.lliure.com.br/linux/10-coisas-para-fazer-depois-que-instalar-o-fedora-312
+
+=============================================================================
+=============================================================================
+
+Rodar o script como Root
+=============================================================================
+====> Adicionando repositorio 
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Examining /var/tmp/yum-root-S_fEAt/rpmfusion-free-release-stable.noarch.rpm: rpmfusion-free-release-19-1.noarch
+/var/tmp/yum-root-S_fEAt/rpmfusion-free-release-stable.noarch.rpm: does not update installed package.
+Examining /var/tmp/yum-root-S_fEAt/rpmfusion-nonfree-release-stable.noarch.rpm: rpmfusion-nonfree-release-19-1.noarch
+/var/tmp/yum-root-S_fEAt/rpmfusion-nonfree-release-stable.noarch.rpm: does not update installed package.
+Nothing to do
+=============================================================================
+====> Fazendo update 
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Cleaning repos: Dropbox fedora google-chrome rpmfusion-free
+              : rpmfusion-free-updates rpmfusion-nonfree
+              : rpmfusion-nonfree-updates updates virtualbox
+Cleaning up everything
+Cleaning up list of fastest mirrors
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Determining fastest mirrors
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+No packages marked for update
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+No packages marked for update
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+No packages needed for security; 0 packages available
+No packages marked for update
+=============================================================================
+====> Dependencias para instalar o oracle XE
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package binutils-2.23.88.0.1-13.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package compat-libstdc++-33-3.2.3-68.7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package compat-libstdc++-33-3.2.3-68.7.i686 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package elfutils-libelf-0.160-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package elfutils-libelf-devel-0.160-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package gcc-4.8.3-7.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package gcc-c++-4.8.3-7.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package glibc-2.18-16.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package glibc-2.18-16.fc20.i686 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package glibc-common-2.18-16.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package glibc-devel-2.18-16.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package glibc-headers-2.18-16.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package glibc-devel-2.18-16.fc20.i686 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package ksh-20120801-19.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package libaio-0.3.109-8.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package libaio-0.3.109-8.fc20.i686 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package libaio-devel-0.3.109-8.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package libaio-devel-0.3.109-8.fc20.i686 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package libgcc-4.8.3-7.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package libgcc-4.8.3-7.fc20.i686 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package libstdc++-4.8.3-7.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package libstdc++-4.8.3-7.fc20.i686 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package libstdc++-devel-4.8.3-7.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package 1:make-3.82-19.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package numactl-2.0.9-2.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package numactl-devel-2.0.9-2.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package sysstat-10.1.6-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package unixODBC-2.3.2-4.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package unixODBC-2.3.2-4.fc20.i686 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package unixODBC-devel-2.3.2-4.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package unixODBC-devel-2.3.2-4.fc20.i686 already installed and latest version
+Nothing to do
+=============================================================================
+====> Instalando yum-extensions... 
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package yum-3.4.3-152.fc20.noarch already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package yum-plugin-fastestmirror-1.1.31-23.fc20.noarch already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package yum-plugin-security-1.1.31-18.fc20.noarch is obsoleted by yum-3.4.3-152.fc20.noarch which is already installed
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+No package yum-allowdowngrade available.
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+No package yum-plugin-download-order available.
+=============================================================================
+====> Instalando Gnome-extensions... 
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package gnome-tweak-tool-3.10.1-2.fc20.noarch already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package gnome-shell-extension-iok-0.20131012-2.fc20.noarch already installed and latest version
+Package gnome-shell-extension-places-menu-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-fedmsg-0.1.6-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-alternate-tab-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-pomodoro-0.10.2-1.fc20.x86_64 already installed and latest version
+Package gnome-shell-extension-sustmi-historymanager-prefix-search-3.0-9.git72282ce.fc20.noarch already installed and latest version
+Package gnome-shell-extension-launch-new-instance-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-user-theme-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-common-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-drive-menu-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-weather-0-0.13.git7587e23.fc20.noarch already installed and latest version
+Package gnome-shell-extension-workspace-indicator-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-apps-menu-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-calc-0-0.6.git2fca097.fc20.noarch already installed and latest version
+Package gnome-shell-extension-gpaste-3.10.4.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-pidgin-0-0.12.git1a254319ea.fc20.x86_64 already installed and latest version
+Package gnome-shell-extension-remove-volume-icon-0.5.1-2.fc20.noarch already installed and latest version
+Package gnome-shell-extension-native-window-placement-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-windowsNavigator-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-remove-bluetooth-icon-0.5.1-2.fc20.noarch already installed and latest version
+Package gnome-shell-extension-auto-move-windows-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-systemMonitor-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-window-list-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-sustmi-windowoverlay-icons-3.0-9.git72282ce.fc20.noarch already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package gnome-shell-theme-zukitwo-20131210-1.fc20.noarch already installed and latest version
+Package gnome-shell-theme-gaia-3.4-3.fc20.noarch already installed and latest version
+Package gnome-shell-theme-smooth-inset-3.4-3.fc20.noarch already installed and latest version
+Package gnome-shell-theme-elementary-3.4-4.fc20.noarch already installed and latest version
+Package gnome-shell-theme-atolm-3.4-3.fc20.noarch already installed and latest version
+Package gnome-shell-theme-zukiwi-20130424-2.fc20.noarch already installed and latest version
+Package gnome-shell-theme-selene-3.4.0-8.fc20.noarch already installed and latest version
+Package gnome-shell-theme-orta-3.4-3.fc20.noarch already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package gnome-packagekit-3.10.1-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package gnome-packagekit-installer-3.10.1-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package gnome-system-monitor-3.10.2-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+No package menuentry available.
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package grub-customizer-4.0.6-1.fc20.x86_64 already installed and latest version
+Nothing to do
+=============================================================================
+====> Instalando Office Tools .... 
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+No package thinderbird available.
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package p7zip-9.20.1-6.fc20.x86_64 already installed and latest version
+Nothing to do
+Skype RPM:  /home/igorferreira/Downloads/skype-4.3.0.37-fedora.i586.rpm
+
+
+=======>  Google Drive Pre-Reqs !
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package pygobject2-2.28.6-11.fc20.x86_64 already installed and latest version
+Package libgtop2-2.28.5-1.fc20.x86_64 already installed and latest version
+Package git-1.9.3-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package json-c-0.11-6.fc20.x86_64 already installed and latest version
+Package json-c-devel-0.11-6.fc20.x86_64 already installed and latest version
+Package 1:qt-devel-4.8.6-10.fc20.x86_64 already installed and latest version
+Package boost-devel-1.54.0-9.fc20.x86_64 already installed and latest version
+Package 1:openssl-devel-1.0.1e-40.fc20.x86_64 already installed and latest version
+Package libxslt-1.1.28-5.fc20.x86_64 already installed and latest version
+Package libcurl-7.32.0-14.fc20.x86_64 already installed and latest version
+Package libcurl-devel-7.32.0-14.fc20.x86_64 already installed and latest version
+Nothing to do
+
+
+=======> nautilus dropbox !
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package pygobject2-2.28.6-11.fc20.x86_64 already installed and latest version
+Package libgtop2-2.28.5-1.fc20.x86_64 already installed and latest version
+Nothing to do
+ nautilus dropbox rpm ja existe!
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Examining /home/igorferreira/Downloads/nautilus-dropbox-1.6.2-1.fedora.x86_64.rpm: nautilus-dropbox-1.6.2-1.fc10.x86_64
+/home/igorferreira/Downloads/nautilus-dropbox-1.6.2-1.fedora.x86_64.rpm: does not update installed package.
+
+
+=======> google Drive !
+ google Drive rpm ja existe!
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Examining /home/igorferreira/Downloads/grive-0.3.0-13.3.x86_64.rpm: grive-0.3.0-13.3.x86_64
+/home/igorferreira/Downloads/grive-0.3.0-13.3.x86_64.rpm: does not update installed package.
+ google Drive tools rpm ja existe!
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+No package 22049grivetools_rpm available.
+
+
+=======> nautilus plugins !
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package nautilus-open-terminal-0.20-2.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package nautilus-beesu-manager-1.8-13.fc20.noarch already installed and latest version
+Nothing to do
+=============================================================================
+====> Instalando Kernels...
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package kernel-headers-3.16.6-203.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package dkms-2.2.0.3-28.git.7c3e7c5.fc20.noarch already installed and latest version
+Package gcc-4.8.3-7.fc20.x86_64 already installed and latest version
+Package gcc-c++-4.8.3-7.fc20.x86_64 already installed and latest version
+Nothing to do
+=============================================================================
+====> Adicionando Repositorio do Google...
+arquivo do repositorio ja existe: /etc/yum.repos.d/virtualbox.repo
+=============================================================================
+====> Instalando Net Tools...
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package 2:samba-4.1.12-5.fc20.x86_64 already installed and latest version
+Package 2:samba-client-4.1.12-5.fc20.x86_64 already installed and latest version
+No package samba-doc available.
+No package samba-swat available.
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package guake-0.4.4-11.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package xterm-297-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package xfce4-terminal-0.6.3-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package 2:nmap-6.45-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package openvpn-2.3.2-6.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package filezilla-3.7.3-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package google-chrome-beta-39.0.2171.42-1.x86_64 already installed and latest version
+Nothing to do
+=============================================================================
+====> Instalando System Tools...
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package gparted-0.18.0-2.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package system-config-nfs-1.4.2-1.fc20.noarch already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package system-config-users-1.3.5-1.fc20.noarch already installed and latest version
+Nothing to do
+=============================================================================
+====> Instalando Dev Tools...
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package dos2unix-6.0.3-3.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package 2:vim-enhanced-7.4.475-2.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package nano-2.3.2-4.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package git-1.9.3-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package subversion-1.8.10-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package curl-7.32.0-14.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package wget-1.14-12.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package python-devel-2.7.5-14.fc20.x86_64 already installed and latest version
+Nothing to do
+
+
+=======> python...
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package python-pip-1.4.1-1.fc20.noarch already installed and latest version
+Nothing to do
+=============================================================================
+====> Instalando Infra Tools...
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package keepass-2.27-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package docker-io-1.3.0-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package ansible-1.7.2-1.fc20.noarch already installed and latest version
+Nothing to do
+=============================================================================
+====> Instalando Videos Tools...
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package vlc-2.1.5-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package transmission-2.84-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package 1:qbittorrent-3.1.10-1.fc20.x86_64 already installed and latest version
+Nothing to do
+=============================================================================
+====> Adicionando Mp3 codec!
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+No package gstreamer1-ffmpeg available.
+Package gstreamer1-libav-1.2.4-3.fc20.x86_64 already installed and latest version
+Package gstreamer1-plugins-good-1.2.4-2.fc20.x86_64 already installed and latest version
+Package gstreamer1-plugins-ugly-1.2.4-1.fc20.x86_64 already installed and latest version
+No package gstreamer1-plugins-bad available.
+Package gstreamer1-plugins-bad-free-1.2.4-1.fc20.x86_64 already installed and latest version
+No package gstreamer1-plugins-bad-nonfree available.
+Package gstreamer-ffmpeg-0.10.13-14.fc20.x86_64 already installed and latest version
+No package gstreamer-libav available.
+Package gstreamer-plugins-good-0.10.31-10.fc20.x86_64 already installed and latest version
+Package gstreamer-plugins-ugly-0.10.19-14.fc20.x86_64 already installed and latest version
+Package gstreamer-plugins-bad-0.10.23-5.fc20.x86_64 already installed and latest version
+Package gstreamer-plugins-bad-free-0.10.23-20.fc20.x86_64 already installed and latest version
+Package gstreamer-plugins-bad-nonfree-0.10.23-2.fc19.x86_64 already installed and latest version
+Package ffmpeg-2.1.5-1.fc20.x86_64 already installed and latest version
+Nothing to do
+=============================================================================
+====> Instalando VirtualBox...
+arquivo do repositorio existe: /etc/yum.repos.d/virtualbox.repo
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package VirtualBox-4.3-4.3.18_96516_fedora18-1.x86_64 already installed and latest version
+Nothing to do
+=============================================================================
+====> Instalando Image Tools!
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.switch.ch
+ * rpmfusion-free-updates: mirror.switch.ch
+ * rpmfusion-nonfree: mirror.switch.ch
+ * rpmfusion-nonfree-updates: mirror.switch.ch
+ * updates: mirror.globo.com
+Package pinta-1.4-2.fc19.x86_64 already installed and latest version
+Nothing to do
+=============================================================================
+
+=============================================================================

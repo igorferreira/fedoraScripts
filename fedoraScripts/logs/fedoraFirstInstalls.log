@@ -1,0 +1,1807 @@
+Rodar o script como Root
+====> Adicionando repositorio 
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Examining /var/tmp/yum-root-S_fEAt/rpmfusion-free-release-stable.noarch.rpm: rpmfusion-free-release-19-1.noarch
+/var/tmp/yum-root-S_fEAt/rpmfusion-free-release-stable.noarch.rpm: does not update installed package.
+Examining /var/tmp/yum-root-S_fEAt/rpmfusion-nonfree-release-stable.noarch.rpm: rpmfusion-nonfree-release-19-1.noarch
+/var/tmp/yum-root-S_fEAt/rpmfusion-nonfree-release-stable.noarch.rpm: does not update installed package.
+Nothing to do
+====> Fazendo update 
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+No packages marked for update
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+No packages marked for update
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+No packages needed for security; 0 packages available
+No packages marked for update
+====> Dependencias para instalar o oracle XE
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package binutils-2.23.88.0.1-13.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package compat-libstdc++-33-3.2.3-68.7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package compat-libstdc++-33-3.2.3-68.7.i686 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package elfutils-libelf-0.160-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package elfutils-libelf-devel-0.160-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package gcc-4.8.3-7.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package gcc-c++-4.8.3-7.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package glibc-2.18-16.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package glibc-2.18-16.fc20.i686 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package glibc-common-2.18-16.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package glibc-devel-2.18-16.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package glibc-headers-2.18-16.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package glibc-devel-2.18-16.fc20.i686 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package ksh-20120801-19.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package libaio-0.3.109-8.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package libaio-0.3.109-8.fc20.i686 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package libaio-devel-0.3.109-8.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package libaio-devel-0.3.109-8.fc20.i686 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package libgcc-4.8.3-7.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package libgcc-4.8.3-7.fc20.i686 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package libstdc++-4.8.3-7.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package libstdc++-4.8.3-7.fc20.i686 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package libstdc++-devel-4.8.3-7.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package 1:make-3.82-19.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package numactl-2.0.9-2.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package numactl-devel-2.0.9-2.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package sysstat-10.1.6-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package unixODBC-2.3.2-4.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package unixODBC-2.3.2-4.fc20.i686 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package unixODBC-devel-2.3.2-4.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package unixODBC-devel-2.3.2-4.fc20.i686 already installed and latest version
+Nothing to do
+====> Instalando yum-extensions... 
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package yum-3.4.3-152.fc20.noarch already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package yum-plugin-fastestmirror-1.1.31-23.fc20.noarch already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package yum-plugin-security-1.1.31-18.fc20.noarch is obsoleted by yum-3.4.3-152.fc20.noarch which is already installed
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+No package yum-allowdowngrade available.
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+No package yum-plugin-download-order available.
+====> Instalando Gnome-extensions... 
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package gnome-tweak-tool-3.10.1-2.fc20.noarch already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package gnome-shell-extension-iok-0.20131012-2.fc20.noarch already installed and latest version
+Package gnome-shell-extension-places-menu-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-fedmsg-0.1.6-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-alternate-tab-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-pomodoro-0.10.2-1.fc20.x86_64 already installed and latest version
+Package gnome-shell-extension-sustmi-historymanager-prefix-search-3.0-9.git72282ce.fc20.noarch already installed and latest version
+Package gnome-shell-extension-launch-new-instance-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-user-theme-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-common-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-drive-menu-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-weather-0-0.13.git7587e23.fc20.noarch already installed and latest version
+Package gnome-shell-extension-workspace-indicator-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-apps-menu-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-calc-0-0.6.git2fca097.fc20.noarch already installed and latest version
+Package gnome-shell-extension-gpaste-3.10.4.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-pidgin-0-0.12.git1a254319ea.fc20.x86_64 already installed and latest version
+Package gnome-shell-extension-remove-volume-icon-0.5.1-2.fc20.noarch already installed and latest version
+Package gnome-shell-extension-native-window-placement-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-windowsNavigator-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-remove-bluetooth-icon-0.5.1-2.fc20.noarch already installed and latest version
+Package gnome-shell-extension-auto-move-windows-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-systemMonitor-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-window-list-3.10.1-1.fc20.noarch already installed and latest version
+Package gnome-shell-extension-sustmi-windowoverlay-icons-3.0-9.git72282ce.fc20.noarch already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package gnome-shell-theme-zukitwo-20131210-1.fc20.noarch already installed and latest version
+Package gnome-shell-theme-gaia-3.4-3.fc20.noarch already installed and latest version
+Package gnome-shell-theme-smooth-inset-3.4-3.fc20.noarch already installed and latest version
+Package gnome-shell-theme-elementary-3.4-4.fc20.noarch already installed and latest version
+Package gnome-shell-theme-atolm-3.4-3.fc20.noarch already installed and latest version
+Package gnome-shell-theme-zukiwi-20130424-2.fc20.noarch already installed and latest version
+Package gnome-shell-theme-selene-3.4.0-8.fc20.noarch already installed and latest version
+Package gnome-shell-theme-orta-3.4-3.fc20.noarch already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package gnome-packagekit-3.10.1-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package gnome-packagekit-installer-3.10.1-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package gnome-system-monitor-3.10.2-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+No package menuentry available.
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package grub-customizer-4.0.6-1.fc20.x86_64 already installed and latest version
+Nothing to do
+====> Instalando Office Tools .... 
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+No package thinderbird available.
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package p7zip-9.20.1-6.fc20.x86_64 already installed and latest version
+Nothing to do
+=======>  Google Drive Pre-Reqs !
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package pygobject2-2.28.6-11.fc20.x86_64 already installed and latest version
+Package libgtop2-2.28.5-1.fc20.x86_64 already installed and latest version
+Package git-1.9.3-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package json-c-0.11-6.fc20.x86_64 already installed and latest version
+Package json-c-devel-0.11-6.fc20.x86_64 already installed and latest version
+Package 1:qt-devel-4.8.6-10.fc20.x86_64 already installed and latest version
+Package boost-devel-1.54.0-9.fc20.x86_64 already installed and latest version
+Package 1:openssl-devel-1.0.1e-40.fc20.x86_64 already installed and latest version
+Package libxslt-1.1.28-5.fc20.x86_64 already installed and latest version
+Package libcurl-7.32.0-14.fc20.x86_64 already installed and latest version
+Package libcurl-devel-7.32.0-14.fc20.x86_64 already installed and latest version
+Nothing to do
+=======> nautilus dropbox !
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package pygobject2-2.28.6-11.fc20.x86_64 already installed and latest version
+Package libgtop2-2.28.5-1.fc20.x86_64 already installed and latest version
+Package git-1.9.3-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Examining nautilus-dropbox-1.6.2-1.fedora.x86_64.rpm: nautilus-dropbox-1.6.2-1.fc10.x86_64
+nautilus-dropbox-1.6.2-1.fedora.x86_64.rpm: does not update installed package.
+=======> nautilus google Drive !
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+No package grive-0.3.0-13.3.x86_64.rpm available.
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+No package grive-tools-1.10.noarch_0.rpm available.
+=======> nautilus plugins !
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package nautilus-open-terminal-0.20-2.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package nautilus-beesu-manager-1.8-13.fc20.noarch already installed and latest version
+Nothing to do
+====> Instalando Kernels...
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package kernel-headers-3.16.6-203.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package dkms-2.2.0.3-28.git.7c3e7c5.fc20.noarch already installed and latest version
+Package gcc-4.8.3-7.fc20.x86_64 already installed and latest version
+Package gcc-c++-4.8.3-7.fc20.x86_64 already installed and latest version
+Nothing to do
+====> Adicionando Repositorio do Google...
+arquivo do repositorio existe: /etc/yum.repos.d/virtualbox.repo
+====> Instalando Net Tools...
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package 2:samba-4.1.12-5.fc20.x86_64 already installed and latest version
+Package 2:samba-client-4.1.12-5.fc20.x86_64 already installed and latest version
+No package samba-doc available.
+No package samba-swat available.
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package guake-0.4.4-11.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package xterm-297-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package xfce4-terminal-0.6.3-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package 2:nmap-6.45-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package openvpn-2.3.2-6.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package filezilla-3.7.3-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package google-chrome-beta-39.0.2171.42-1.x86_64 already installed and latest version
+Nothing to do
+====> Instalando System Tools...
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package gparted-0.18.0-2.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package system-config-nfs-1.4.2-1.fc20.noarch already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package system-config-users-1.3.5-1.fc20.noarch already installed and latest version
+Nothing to do
+====> Instalando Dev Tools...
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package dos2unix-6.0.3-3.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package 2:vim-enhanced-7.4.475-2.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package nano-2.3.2-4.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package git-1.9.3-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package subversion-1.8.10-1.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package curl-7.32.0-14.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package wget-1.14-12.fc20.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Package python-devel-2.7.5-14.fc20.x86_64 already installed and latest version
+Nothing to do
+sublime...
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+No package sublime-text available.
+
+Sublime Text 3 installed successfully!
+Run with: subl
+python...
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Resolving Dependencies
+--> Running transaction check
+---> Package python-pip.noarch 0:1.4.1-1.fc20 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package            Arch           Version                 Repository      Size
+================================================================================
+Installing:
+ python-pip         noarch         1.4.1-1.fc20            fedora         762 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 762 k
+Installed size: 3.3 M
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction (shutdown inhibited)
+  Installing : python-pip-1.4.1-1.fc20.noarch                               1/1 
+  Verifying  : python-pip-1.4.1-1.fc20.noarch                               1/1 
+
+Installed:
+  python-pip.noarch 0:1.4.1-1.fc20                                              
+
+Complete!
+====> Instalando Infra Tools...
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Resolving Dependencies
+--> Running transaction check
+---> Package keepass.x86_64 0:2.27-1.fc20 will be installed
+--> Processing Dependency: mono(mscorlib) = 2.0.0.0 for package: keepass-2.27-1.fc20.x86_64
+--> Processing Dependency: mono(System.Xml) = 2.0.0.0 for package: keepass-2.27-1.fc20.x86_64
+--> Processing Dependency: mono(System.Windows.Forms) = 2.0.0.0 for package: keepass-2.27-1.fc20.x86_64
+--> Processing Dependency: mono(System.Security) = 2.0.0.0 for package: keepass-2.27-1.fc20.x86_64
+--> Processing Dependency: mono(System.Drawing) = 2.0.0.0 for package: keepass-2.27-1.fc20.x86_64
+--> Processing Dependency: mono(System) = 2.0.0.0 for package: keepass-2.27-1.fc20.x86_64
+--> Processing Dependency: xsel for package: keepass-2.27-1.fc20.x86_64
+--> Processing Dependency: xdotool for package: keepass-2.27-1.fc20.x86_64
+--> Running transaction check
+---> Package mono-core.x86_64 0:2.10.8-5.fc20 will be installed
+--> Processing Dependency: libgdiplus for package: mono-core-2.10.8-5.fc20.x86_64
+---> Package mono-winforms.x86_64 0:2.10.8-5.fc20 will be installed
+--> Processing Dependency: mono(System.Web) = 4.0.0.0 for package: mono-winforms-2.10.8-5.fc20.x86_64
+--> Processing Dependency: mono(System.Web) = 2.0.0.0 for package: mono-winforms-2.10.8-5.fc20.x86_64
+---> Package xdotool.x86_64 1:2.20110530.1-7.fc20 will be installed
+--> Processing Dependency: libxdo.so.2()(64bit) for package: 1:xdotool-2.20110530.1-7.fc20.x86_64
+---> Package xsel.x86_64 0:1.2.0-13.fc20 will be installed
+--> Running transaction check
+---> Package libgdiplus.x86_64 0:2.10-10.fc20 will be installed
+---> Package libxdo.x86_64 1:2.20110530.1-7.fc20 will be installed
+---> Package mono-web.x86_64 0:2.10.8-5.fc20 will be installed
+--> Processing Dependency: mono(System.Web.Extensions) = 4.0.0.0 for package: mono-web-2.10.8-5.fc20.x86_64
+--> Processing Dependency: mono(System.Web.Extensions) = 3.5.0.0 for package: mono-web-2.10.8-5.fc20.x86_64
+--> Processing Dependency: mono(System.ServiceModel) = 4.0.0.0 for package: mono-web-2.10.8-5.fc20.x86_64
+--> Processing Dependency: mono(System.Runtime.Serialization) = 4.0.0.0 for package: mono-web-2.10.8-5.fc20.x86_64
+--> Processing Dependency: mono(System.Data.Linq) = 4.0.0.0 for package: mono-web-2.10.8-5.fc20.x86_64
+--> Processing Dependency: mono(System.Data.Linq) = 3.5.0.0 for package: mono-web-2.10.8-5.fc20.x86_64
+--> Processing Dependency: mono(Mono.Data.Sqlite) = 4.0.0.0 for package: mono-web-2.10.8-5.fc20.x86_64
+--> Processing Dependency: mono(Mono.Data.Sqlite) = 2.0.0.0 for package: mono-web-2.10.8-5.fc20.x86_64
+--> Running transaction check
+---> Package mono-data.x86_64 0:2.10.8-5.fc20 will be installed
+--> Processing Dependency: mono(WindowsBase) = 3.0.0.0 for package: mono-data-2.10.8-5.fc20.x86_64
+---> Package mono-data-sqlite.x86_64 0:2.10.8-5.fc20 will be installed
+---> Package mono-mvc.x86_64 0:2.10.8-5.fc20 will be installed
+---> Package mono-wcf.x86_64 0:2.10.8-5.fc20 will be installed
+--> Processing Dependency: mono(System.Messaging) = 4.0.0.0 for package: mono-wcf-2.10.8-5.fc20.x86_64
+--> Processing Dependency: mono(System.Messaging) = 2.0.0.0 for package: mono-wcf-2.10.8-5.fc20.x86_64
+--> Running transaction check
+---> Package mono-extras.x86_64 0:2.10.8-5.fc20 will be installed
+---> Package mono-winfx.x86_64 0:2.10.8-5.fc20 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package              Arch       Version                      Repository   Size
+================================================================================
+Installing:
+ keepass              x86_64     2.27-1.fc20                  updates     833 k
+Installing for dependencies:
+ libgdiplus           x86_64     2.10-10.fc20                 fedora      161 k
+ libxdo               x86_64     1:2.20110530.1-7.fc20        fedora       35 k
+ mono-core            x86_64     2.10.8-5.fc20                fedora       12 M
+ mono-data            x86_64     2.10.8-5.fc20                fedora      2.2 M
+ mono-data-sqlite     x86_64     2.10.8-5.fc20                fedora      106 k
+ mono-extras          x86_64     2.10.8-5.fc20                fedora      453 k
+ mono-mvc             x86_64     2.10.8-5.fc20                fedora      653 k
+ mono-wcf             x86_64     2.10.8-5.fc20                fedora      1.5 M
+ mono-web             x86_64     2.10.8-5.fc20                fedora      2.7 M
+ mono-winforms        x86_64     2.10.8-5.fc20                fedora      2.9 M
+ mono-winfx           x86_64     2.10.8-5.fc20                fedora      352 k
+ xdotool              x86_64     1:2.20110530.1-7.fc20        fedora       46 k
+ xsel                 x86_64     1.2.0-13.fc20                fedora       24 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+13 Dependent packages)
+
+Total download size: 24 M
+Installed size: 88 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              1.9 MB/s |  24 MB  00:12     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction (shutdown inhibited)
+  Installing : 1:libxdo-2.20110530.1-7.fc20.x86_64                         1/14 
+  Installing : 1:xdotool-2.20110530.1-7.fc20.x86_64                        2/14 
+  Installing : libgdiplus-2.10-10.fc20.x86_64                              3/14 
+  Installing : mono-core-2.10.8-5.fc20.x86_64                              4/14 
+  Installing : mono-winfx-2.10.8-5.fc20.x86_64                             5/14 
+  Installing : mono-data-sqlite-2.10.8-5.fc20.x86_64                       6/14 
+  Installing : mono-data-2.10.8-5.fc20.x86_64                              7/14 
+  Installing : mono-web-2.10.8-5.fc20.x86_64                               8/14 
+  Installing : mono-winforms-2.10.8-5.fc20.x86_64                          9/14 
+  Installing : mono-extras-2.10.8-5.fc20.x86_64                           10/14 
+  Installing : mono-mvc-2.10.8-5.fc20.x86_64                              11/14 
+  Installing : mono-wcf-2.10.8-5.fc20.x86_64                              12/14 
+  Installing : xsel-1.2.0-13.fc20.x86_64                                  13/14 
+  Installing : keepass-2.27-1.fc20.x86_64                                 14/14 
+  Verifying  : xsel-1.2.0-13.fc20.x86_64                                   1/14 
+  Verifying  : mono-winforms-2.10.8-5.fc20.x86_64                          2/14 
+  Verifying  : 1:xdotool-2.20110530.1-7.fc20.x86_64                        3/14 
+  Verifying  : mono-winfx-2.10.8-5.fc20.x86_64                             4/14 
+  Verifying  : mono-web-2.10.8-5.fc20.x86_64                               5/14 
+  Verifying  : libgdiplus-2.10-10.fc20.x86_64                              6/14 
+  Verifying  : mono-data-2.10.8-5.fc20.x86_64                              7/14 
+  Verifying  : mono-mvc-2.10.8-5.fc20.x86_64                               8/14 
+  Verifying  : mono-wcf-2.10.8-5.fc20.x86_64                               9/14 
+  Verifying  : mono-data-sqlite-2.10.8-5.fc20.x86_64                      10/14 
+  Verifying  : 1:libxdo-2.20110530.1-7.fc20.x86_64                        11/14 
+  Verifying  : mono-core-2.10.8-5.fc20.x86_64                             12/14 
+  Verifying  : keepass-2.27-1.fc20.x86_64                                 13/14 
+  Verifying  : mono-extras-2.10.8-5.fc20.x86_64                           14/14 
+
+Installed:
+  keepass.x86_64 0:2.27-1.fc20                                                  
+
+Dependency Installed:
+  libgdiplus.x86_64 0:2.10-10.fc20         libxdo.x86_64 1:2.20110530.1-7.fc20  
+  mono-core.x86_64 0:2.10.8-5.fc20         mono-data.x86_64 0:2.10.8-5.fc20     
+  mono-data-sqlite.x86_64 0:2.10.8-5.fc20  mono-extras.x86_64 0:2.10.8-5.fc20   
+  mono-mvc.x86_64 0:2.10.8-5.fc20          mono-wcf.x86_64 0:2.10.8-5.fc20      
+  mono-web.x86_64 0:2.10.8-5.fc20          mono-winforms.x86_64 0:2.10.8-5.fc20 
+  mono-winfx.x86_64 0:2.10.8-5.fc20        xdotool.x86_64 1:2.20110530.1-7.fc20 
+  xsel.x86_64 0:1.2.0-13.fc20             
+
+Complete!
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Resolving Dependencies
+--> Running transaction check
+---> Package docker-io.x86_64 0:1.3.0-1.fc20 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package           Arch           Version                 Repository       Size
+================================================================================
+Installing:
+ docker-io         x86_64         1.3.0-1.fc20            updates         4.3 M
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 4.3 M
+Installed size: 18 M
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction (shutdown inhibited)
+  Installing : docker-io-1.3.0-1.fc20.x86_64                                1/1 
+  Verifying  : docker-io-1.3.0-1.fc20.x86_64                                1/1 
+
+Installed:
+  docker-io.x86_64 0:1.3.0-1.fc20                                               
+
+Complete!
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Resolving Dependencies
+--> Running transaction check
+---> Package ansible.noarch 0:1.7.2-1.fc20 will be installed
+--> Processing Dependency: python-paramiko for package: ansible-1.7.2-1.fc20.noarch
+--> Processing Dependency: python-keyczar for package: ansible-1.7.2-1.fc20.noarch
+--> Processing Dependency: python-jinja2 for package: ansible-1.7.2-1.fc20.noarch
+--> Processing Dependency: python-httplib2 for package: ansible-1.7.2-1.fc20.noarch
+--> Processing Dependency: PyYAML for package: ansible-1.7.2-1.fc20.noarch
+--> Running transaction check
+---> Package PyYAML.x86_64 0:3.10-10.fc20 will be installed
+--> Processing Dependency: libyaml-0.so.2()(64bit) for package: PyYAML-3.10-10.fc20.x86_64
+---> Package python-httplib2.noarch 0:0.7.7-3.fc20 will be installed
+---> Package python-jinja2.noarch 0:2.7.3-1.fc20 will be installed
+--> Processing Dependency: python-babel >= 0.8 for package: python-jinja2-2.7.3-1.fc20.noarch
+--> Processing Dependency: python-markupsafe for package: python-jinja2-2.7.3-1.fc20.noarch
+---> Package python-keyczar.noarch 0:0.71c-3.fc20 will be installed
+--> Processing Dependency: python-pyasn1 for package: python-keyczar-0.71c-3.fc20.noarch
+--> Processing Dependency: python-crypto for package: python-keyczar-0.71c-3.fc20.noarch
+---> Package python-paramiko.noarch 0:1.10.1-2.fc20 will be installed
+--> Running transaction check
+---> Package libyaml.x86_64 0:0.1.6-1.fc20 will be installed
+---> Package python-babel.noarch 0:1.3-3.fc20 will be installed
+---> Package python-crypto.x86_64 0:2.6.1-1.fc20 will be installed
+---> Package python-markupsafe.x86_64 0:0.18-1.fc20 will be installed
+---> Package python-pyasn1.noarch 0:0.1.7-2.fc20 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                 Arch         Version               Repository     Size
+================================================================================
+Installing:
+ ansible                 noarch       1.7.2-1.fc20          updates       855 k
+Installing for dependencies:
+ PyYAML                  x86_64       3.10-10.fc20          updates       155 k
+ libyaml                 x86_64       0.1.6-1.fc20          updates        55 k
+ python-babel            noarch       1.3-3.fc20            updates       2.4 M
+ python-crypto           x86_64       2.6.1-1.fc20          fedora        470 k
+ python-httplib2         noarch       0.7.7-3.fc20          fedora         70 k
+ python-jinja2           noarch       2.7.3-1.fc20          updates       515 k
+ python-keyczar          noarch       0.71c-3.fc20          fedora        218 k
+ python-markupsafe       x86_64       0.18-1.fc20           fedora         27 k
+ python-paramiko         noarch       1.10.1-2.fc20         fedora        655 k
+ python-pyasn1           noarch       0.1.7-2.fc20          fedora         92 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+10 Dependent packages)
+
+Total download size: 5.5 M
+Installed size: 28 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              1.2 MB/s | 5.5 MB  00:04     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction (shutdown inhibited)
+  Installing : python-crypto-2.6.1-1.fc20.x86_64                           1/11 
+  Installing : python-paramiko-1.10.1-2.fc20.noarch                        2/11 
+  Installing : python-babel-1.3-3.fc20.noarch                              3/11 
+  Installing : python-markupsafe-0.18-1.fc20.x86_64                        4/11 
+  Installing : python-jinja2-2.7.3-1.fc20.noarch                           5/11 
+  Installing : python-pyasn1-0.1.7-2.fc20.noarch                           6/11 
+  Installing : python-keyczar-0.71c-3.fc20.noarch                          7/11 
+  Installing : python-httplib2-0.7.7-3.fc20.noarch                         8/11 
+  Installing : libyaml-0.1.6-1.fc20.x86_64                                 9/11 
+  Installing : PyYAML-3.10-10.fc20.x86_64                                 10/11 
+  Installing : ansible-1.7.2-1.fc20.noarch                                11/11 
+  Verifying  : libyaml-0.1.6-1.fc20.x86_64                                 1/11 
+  Verifying  : python-httplib2-0.7.7-3.fc20.noarch                         2/11 
+  Verifying  : python-keyczar-0.71c-3.fc20.noarch                          3/11 
+  Verifying  : python-pyasn1-0.1.7-2.fc20.noarch                           4/11 
+  Verifying  : python-crypto-2.6.1-1.fc20.x86_64                           5/11 
+  Verifying  : ansible-1.7.2-1.fc20.noarch                                 6/11 
+  Verifying  : python-markupsafe-0.18-1.fc20.x86_64                        7/11 
+  Verifying  : python-paramiko-1.10.1-2.fc20.noarch                        8/11 
+  Verifying  : python-jinja2-2.7.3-1.fc20.noarch                           9/11 
+  Verifying  : PyYAML-3.10-10.fc20.x86_64                                 10/11 
+  Verifying  : python-babel-1.3-3.fc20.noarch                             11/11 
+
+Installed:
+  ansible.noarch 0:1.7.2-1.fc20                                                 
+
+Dependency Installed:
+  PyYAML.x86_64 0:3.10-10.fc20           libyaml.x86_64 0:0.1.6-1.fc20         
+  python-babel.noarch 0:1.3-3.fc20       python-crypto.x86_64 0:2.6.1-1.fc20   
+  python-httplib2.noarch 0:0.7.7-3.fc20  python-jinja2.noarch 0:2.7.3-1.fc20   
+  python-keyczar.noarch 0:0.71c-3.fc20   python-markupsafe.x86_64 0:0.18-1.fc20
+  python-paramiko.noarch 0:1.10.1-2.fc20 python-pyasn1.noarch 0:0.1.7-2.fc20   
+
+Complete!
+====> Instalando Videos Tools...
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Resolving Dependencies
+--> Running transaction check
+---> Package vlc.x86_64 0:2.1.5-1.fc20 will be installed
+--> Processing Dependency: vlc-core(x86-64) = 2.1.5-1.fc20 for package: vlc-2.1.5-1.fc20.x86_64
+--> Processing Dependency: kde-filesystem for package: vlc-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libvlccore.so.7()(64bit) for package: vlc-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libaa.so.1()(64bit) for package: vlc-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libxcb-keysyms.so.1()(64bit) for package: vlc-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libcaca.so.0()(64bit) for package: vlc-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libprojectM.so.2.0.1()(64bit) for package: vlc-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libfribidi.so.0()(64bit) for package: vlc-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libminizip.so.1()(64bit) for package: vlc-2.1.5-1.fc20.x86_64
+--> Running transaction check
+---> Package aalib-libs.x86_64 0:1.4.0-0.23.rc5.fc20 will be installed
+---> Package fribidi.x86_64 0:0.19.4-5.fc20 will be installed
+---> Package kde-filesystem.x86_64 0:4-46.fc20 will be installed
+---> Package libcaca.x86_64 0:0.99-0.18.beta17.fc20 will be installed
+--> Processing Dependency: libglut.so.3()(64bit) for package: libcaca-0.99-0.18.beta17.fc20.x86_64
+---> Package libprojectM.x86_64 0:2.0.1-20.fc20 will be installed
+--> Processing Dependency: libftgl.so.2()(64bit) for package: libprojectM-2.0.1-20.fc20.x86_64
+--> Processing Dependency: libGLEW.so.1.9()(64bit) for package: libprojectM-2.0.1-20.fc20.x86_64
+---> Package minizip.x86_64 0:1.2.8-3.fc20 will be installed
+---> Package vlc-core.x86_64 0:2.1.5-1.fc20 will be installed
+--> Processing Dependency: live555(x86-64) = 2013.11.26 for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libavformat.so.55(LIBAVFORMAT_55)(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libva.so.1(VA_API_0.33.0)(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libpostproc.so.52(LIBPOSTPROC_52)(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libavutil.so.52(LIBAVUTIL_52)(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libswscale.so.2(LIBSWSCALE_2)(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libavcodec.so.55(LIBAVCODEC_55)(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: liblirc_client.so.0()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libass.so.4()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libva.so.1()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libmodplug.so.1()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libva-x11.so.1()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libupnp.so.6()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libmatroska.so.6()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libkate.so.1()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libliveMedia.so.17()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libschroedinger-1.0.so.0()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libixml.so.2()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libthreadutil.so.6()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libchromaprint.so.0()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libebml.so.4()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libSDL_image-1.2.so.0()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libvncclient.so.0()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libgroupsock.so.1()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libdc1394.so.22()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libdirac_encoder.so.0()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libzvbi.so.0()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libavcodec.so.55()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libpostproc.so.52()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libBasicUsageEnvironment.so.0()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libtiger.so.5()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libcddb.so.2()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libdirac_decoder.so.0()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libavformat.so.55()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libgme.so.0()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libdvbpsi.so.9()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libavutil.so.52()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libUsageEnvironment.so.1()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libswscale.so.2()(64bit) for package: vlc-core-2.1.5-1.fc20.x86_64
+---> Package xcb-util-keysyms.x86_64 0:0.3.9-3.fc20 will be installed
+--> Running transaction check
+---> Package SDL_image.x86_64 0:1.2.12-7.fc20 will be installed
+---> Package dirac-libs.x86_64 0:1.0.2-12.fc20 will be installed
+---> Package ffmpeg-libs.x86_64 0:2.1.5-1.fc20 will be installed
+--> Processing Dependency: libopencv_imgproc.so.2.4()(64bit) for package: ffmpeg-libs-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libopencv_core.so.2.4()(64bit) for package: ffmpeg-libs-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libopenal.so.1()(64bit) for package: ffmpeg-libs-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libsoxr.so.0()(64bit) for package: ffmpeg-libs-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libxvidcore.so.4()(64bit) for package: ffmpeg-libs-2.1.5-1.fc20.x86_64
+--> Processing Dependency: libcelt0.so.2()(64bit) for package: ffmpeg-libs-2.1.5-1.fc20.x86_64
+---> Package freeglut.x86_64 0:2.8.1-3.fc20 will be installed
+---> Package ftgl.x86_64 0:2.1.3-0.9.rc5.fc20 will be installed
+---> Package game-music-emu.x86_64 0:0.6.0-3.fc20 will be installed
+---> Package libGLEW.x86_64 0:1.9.0-4.fc20 will be installed
+---> Package libass.x86_64 0:0.10.1-4.fc20 will be installed
+---> Package libcddb.x86_64 0:1.3.2-12.fc20 will be installed
+---> Package libchromaprint.x86_64 0:1.0-1.fc20 will be installed
+---> Package libdc1394.x86_64 0:2.2.2-3.fc20 will be installed
+---> Package libdvbpsi.x86_64 0:1.1.2-1.fc20 will be installed
+---> Package libebml.x86_64 0:1.3.0-2.fc20 will be installed
+---> Package libkate.x86_64 0:0.4.1-2.fc20 will be installed
+---> Package libmatroska.x86_64 0:1.4.1-1.fc20 will be installed
+---> Package libmodplug.x86_64 1:0.8.8.5-1.fc20 will be installed
+---> Package libtiger.x86_64 0:0.3.4-7.fc20 will be installed
+---> Package libupnp.x86_64 0:1.6.19-1.fc20 will be installed
+---> Package libva.x86_64 0:1.2.1-3.fc20 will be installed
+---> Package libvncserver.x86_64 0:0.9.10-0.6.20140718git9453be42.fc20 will be installed
+--> Processing Dependency: libminilzo.so.0()(64bit) for package: libvncserver-0.9.10-0.6.20140718git9453be42.fc20.x86_64
+---> Package lirc-libs.x86_64 0:0.9.0-21.fc20 will be installed
+---> Package live555.x86_64 0:2013.11.26-1.fc20 will be installed
+---> Package schroedinger.x86_64 0:1.0.11-5.fc20 will be installed
+---> Package zvbi.x86_64 0:0.2.33-16.fc20 will be installed
+--> Running transaction check
+---> Package celt.x86_64 0:0.11.3-1.fc20 will be installed
+---> Package lzo-minilzo.x86_64 0:2.08-1.fc20 will be installed
+---> Package openal-soft.x86_64 0:1.16.0-2.fc20 will be installed
+---> Package opencv-core.x86_64 0:2.4.7-6.fc20 will be installed
+---> Package soxr.x86_64 0:0.1.1-2.fc20 will be installed
+---> Package xvidcore.x86_64 0:1.3.2-5.fc20 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package          Arch   Version                   Repository              Size
+================================================================================
+Installing:
+ vlc              x86_64 2.1.5-1.fc20              rpmfusion-free-updates 1.5 M
+Installing for dependencies:
+ SDL_image        x86_64 1.2.12-7.fc20             fedora                  41 k
+ aalib-libs       x86_64 1.4.0-0.23.rc5.fc20       fedora                  65 k
+ celt             x86_64 0.11.3-1.fc20             updates                 77 k
+ dirac-libs       x86_64 1.0.2-12.fc20             fedora                 256 k
+ ffmpeg-libs      x86_64 2.1.5-1.fc20              rpmfusion-free-updates 4.2 M
+ freeglut         x86_64 2.8.1-3.fc20              updates                181 k
+ fribidi          x86_64 0.19.4-5.fc20             fedora                  63 k
+ ftgl             x86_64 2.1.3-0.9.rc5.fc20        fedora                 101 k
+ game-music-emu   x86_64 0.6.0-3.fc20              fedora                 151 k
+ kde-filesystem   x86_64 4-46.fc20                 fedora                  48 k
+ libGLEW          x86_64 1.9.0-4.fc20              fedora                 127 k
+ libass           x86_64 0.10.1-4.fc20             fedora                  63 k
+ libcaca          x86_64 0.99-0.18.beta17.fc20     fedora                 216 k
+ libcddb          x86_64 1.3.2-12.fc20             fedora                  71 k
+ libchromaprint   x86_64 1.0-1.fc20                fedora                  46 k
+ libdc1394        x86_64 2.2.2-3.fc20              updates                120 k
+ libdvbpsi        x86_64 1.1.2-1.fc20              rpmfusion-free          92 k
+ libebml          x86_64 1.3.0-2.fc20              fedora                  67 k
+ libkate          x86_64 0.4.1-2.fc20              fedora                  51 k
+ libmatroska      x86_64 1.4.1-1.fc20              fedora                 138 k
+ libmodplug       x86_64 1:0.8.8.5-1.fc20          updates                161 k
+ libprojectM      x86_64 2.0.1-20.fc20             fedora                 480 k
+ libtiger         x86_64 0.3.4-7.fc20              fedora                  37 k
+ libupnp          x86_64 1.6.19-1.fc20             updates                101 k
+ libva            x86_64 1.2.1-3.fc20              updates                 66 k
+ libvncserver     x86_64 0.9.10-0.6.20140718git9453be42.fc20
+                                                   updates                233 k
+ lirc-libs        x86_64 0.9.0-21.fc20             fedora                  37 k
+ live555          x86_64 2013.11.26-1.fc20         rpmfusion-free         321 k
+ lzo-minilzo      x86_64 2.08-1.fc20               updates                 15 k
+ minizip          x86_64 1.2.8-3.fc20              fedora                  33 k
+ openal-soft      x86_64 1.16.0-2.fc20             updates                281 k
+ opencv-core      x86_64 2.4.7-6.fc20              updates                1.8 M
+ schroedinger     x86_64 1.0.11-5.fc20             fedora                 289 k
+ soxr             x86_64 0.1.1-2.fc20              fedora                  77 k
+ vlc-core         x86_64 2.1.5-1.fc20              rpmfusion-free-updates 8.3 M
+ xcb-util-keysyms x86_64 0.3.9-3.fc20              fedora                 9.7 k
+ xvidcore         x86_64 1.3.2-5.fc20              rpmfusion-free         259 k
+ zvbi             x86_64 0.2.33-16.fc20            fedora                 396 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+38 Dependent packages)
+
+Total download size: 20 M
+Installed size: 73 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              561 kB/s |  20 MB  00:37     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction (shutdown inhibited)
+  Installing : fribidi-0.19.4-5.fc20.x86_64                                1/39 
+  Installing : libass-0.10.1-4.fc20.x86_64                                 2/39 
+  Installing : xcb-util-keysyms-0.3.9-3.fc20.x86_64                        3/39 
+  Installing : minizip-1.2.8-3.fc20.x86_64                                 4/39 
+  Installing : libebml-1.3.0-2.fc20.x86_64                                 5/39 
+  Installing : libva-1.2.1-3.fc20.x86_64                                   6/39 
+  Installing : schroedinger-1.0.11-5.fc20.x86_64                           7/39 
+  Installing : libkate-0.4.1-2.fc20.x86_64                                 8/39 
+  Installing : libdc1394-2.2.2-3.fc20.x86_64                               9/39 
+  Installing : libtiger-0.3.4-7.fc20.x86_64                               10/39 
+  Installing : libmatroska-1.4.1-1.fc20.x86_64                            11/39 
+  Installing : libGLEW-1.9.0-4.fc20.x86_64                                12/39 
+  Installing : SDL_image-1.2.12-7.fc20.x86_64                             13/39 
+  Installing : libupnp-1.6.19-1.fc20.x86_64                               14/39 
+  Installing : opencv-core-2.4.7-6.fc20.x86_64                            15/39 
+  Installing : game-music-emu-0.6.0-3.fc20.x86_64                         16/39 
+  Installing : soxr-0.1.1-2.fc20.x86_64                                   17/39 
+  Installing : aalib-libs-1.4.0-0.23.rc5.fc20.x86_64                      18/39 
+  Installing : freeglut-2.8.1-3.fc20.x86_64                               19/39 
+  Installing : libcaca-0.99-0.18.beta17.fc20.x86_64                       20/39 
+  Installing : openal-soft-1.16.0-2.fc20.x86_64                           21/39 
+  Installing : lzo-minilzo-2.08-1.fc20.x86_64                             22/39 
+  Installing : libvncserver-0.9.10-0.6.20140718git9453be42.fc20.x86_64    23/39 
+  Installing : zvbi-0.2.33-16.fc20.x86_64                                 24/39 
+  Installing : libdvbpsi-1.1.2-1.fc20.x86_64                              25/39 
+  Installing : xvidcore-1.3.2-5.fc20.x86_64                               26/39 
+  Installing : libchromaprint-1.0-1.fc20.x86_64                           27/39 
+  Installing : 1:libmodplug-0.8.8.5-1.fc20.x86_64                         28/39 
+  Installing : libcddb-1.3.2-12.fc20.x86_64                               29/39 
+  Installing : kde-filesystem-4-46.fc20.x86_64                            30/39 
+  Installing : lirc-libs-0.9.0-21.fc20.x86_64                             31/39 
+  Installing : live555-2013.11.26-1.fc20.x86_64                           32/39 
+  Installing : dirac-libs-1.0.2-12.fc20.x86_64                            33/39 
+  Installing : celt-0.11.3-1.fc20.x86_64                                  34/39 
+  Installing : ffmpeg-libs-2.1.5-1.fc20.x86_64                            35/39 
+  Installing : vlc-core-2.1.5-1.fc20.x86_64                               36/39 
+  Installing : ftgl-2.1.3-0.9.rc5.fc20.x86_64                             37/39 
+  Installing : libprojectM-2.0.1-20.fc20.x86_64                           38/39 
+  Installing : vlc-2.1.5-1.fc20.x86_64                                    39/39 
+  Verifying  : ftgl-2.1.3-0.9.rc5.fc20.x86_64                              1/39 
+  Verifying  : libdc1394-2.2.2-3.fc20.x86_64                               2/39 
+  Verifying  : ffmpeg-libs-2.1.5-1.fc20.x86_64                             3/39 
+  Verifying  : libvncserver-0.9.10-0.6.20140718git9453be42.fc20.x86_64     4/39 
+  Verifying  : libcaca-0.99-0.18.beta17.fc20.x86_64                        5/39 
+  Verifying  : celt-0.11.3-1.fc20.x86_64                                   6/39 
+  Verifying  : dirac-libs-1.0.2-12.fc20.x86_64                             7/39 
+  Verifying  : live555-2013.11.26-1.fc20.x86_64                            8/39 
+  Verifying  : lirc-libs-0.9.0-21.fc20.x86_64                              9/39 
+  Verifying  : kde-filesystem-4-46.fc20.x86_64                            10/39 
+  Verifying  : libcddb-1.3.2-12.fc20.x86_64                               11/39 
+  Verifying  : libkate-0.4.1-2.fc20.x86_64                                12/39 
+  Verifying  : libprojectM-2.0.1-20.fc20.x86_64                           13/39 
+  Verifying  : schroedinger-1.0.11-5.fc20.x86_64                          14/39 
+  Verifying  : libva-1.2.1-3.fc20.x86_64                                  15/39 
+  Verifying  : 1:libmodplug-0.8.8.5-1.fc20.x86_64                         16/39 
+  Verifying  : libchromaprint-1.0-1.fc20.x86_64                           17/39 
+  Verifying  : vlc-2.1.5-1.fc20.x86_64                                    18/39 
+  Verifying  : xvidcore-1.3.2-5.fc20.x86_64                               19/39 
+  Verifying  : libdvbpsi-1.1.2-1.fc20.x86_64                              20/39 
+  Verifying  : zvbi-0.2.33-16.fc20.x86_64                                 21/39 
+  Verifying  : lzo-minilzo-2.08-1.fc20.x86_64                             22/39 
+  Verifying  : openal-soft-1.16.0-2.fc20.x86_64                           23/39 
+  Verifying  : freeglut-2.8.1-3.fc20.x86_64                               24/39 
+  Verifying  : libtiger-0.3.4-7.fc20.x86_64                               25/39 
+  Verifying  : libebml-1.3.0-2.fc20.x86_64                                26/39 
+  Verifying  : aalib-libs-1.4.0-0.23.rc5.fc20.x86_64                      27/39 
+  Verifying  : soxr-0.1.1-2.fc20.x86_64                                   28/39 
+  Verifying  : libmatroska-1.4.1-1.fc20.x86_64                            29/39 
+  Verifying  : vlc-core-2.1.5-1.fc20.x86_64                               30/39 
+  Verifying  : libass-0.10.1-4.fc20.x86_64                                31/39 
+  Verifying  : game-music-emu-0.6.0-3.fc20.x86_64                         32/39 
+  Verifying  : minizip-1.2.8-3.fc20.x86_64                                33/39 
+  Verifying  : fribidi-0.19.4-5.fc20.x86_64                               34/39 
+  Verifying  : xcb-util-keysyms-0.3.9-3.fc20.x86_64                       35/39 
+  Verifying  : opencv-core-2.4.7-6.fc20.x86_64                            36/39 
+  Verifying  : libupnp-1.6.19-1.fc20.x86_64                               37/39 
+  Verifying  : SDL_image-1.2.12-7.fc20.x86_64                             38/39 
+  Verifying  : libGLEW-1.9.0-4.fc20.x86_64                                39/39 
+
+Installed:
+  vlc.x86_64 0:2.1.5-1.fc20                                                     
+
+Dependency Installed:
+  SDL_image.x86_64 0:1.2.12-7.fc20                                              
+  aalib-libs.x86_64 0:1.4.0-0.23.rc5.fc20                                       
+  celt.x86_64 0:0.11.3-1.fc20                                                   
+  dirac-libs.x86_64 0:1.0.2-12.fc20                                             
+  ffmpeg-libs.x86_64 0:2.1.5-1.fc20                                             
+  freeglut.x86_64 0:2.8.1-3.fc20                                                
+  fribidi.x86_64 0:0.19.4-5.fc20                                                
+  ftgl.x86_64 0:2.1.3-0.9.rc5.fc20                                              
+  game-music-emu.x86_64 0:0.6.0-3.fc20                                          
+  kde-filesystem.x86_64 0:4-46.fc20                                             
+  libGLEW.x86_64 0:1.9.0-4.fc20                                                 
+  libass.x86_64 0:0.10.1-4.fc20                                                 
+  libcaca.x86_64 0:0.99-0.18.beta17.fc20                                        
+  libcddb.x86_64 0:1.3.2-12.fc20                                                
+  libchromaprint.x86_64 0:1.0-1.fc20                                            
+  libdc1394.x86_64 0:2.2.2-3.fc20                                               
+  libdvbpsi.x86_64 0:1.1.2-1.fc20                                               
+  libebml.x86_64 0:1.3.0-2.fc20                                                 
+  libkate.x86_64 0:0.4.1-2.fc20                                                 
+  libmatroska.x86_64 0:1.4.1-1.fc20                                             
+  libmodplug.x86_64 1:0.8.8.5-1.fc20                                            
+  libprojectM.x86_64 0:2.0.1-20.fc20                                            
+  libtiger.x86_64 0:0.3.4-7.fc20                                                
+  libupnp.x86_64 0:1.6.19-1.fc20                                                
+  libva.x86_64 0:1.2.1-3.fc20                                                   
+  libvncserver.x86_64 0:0.9.10-0.6.20140718git9453be42.fc20                     
+  lirc-libs.x86_64 0:0.9.0-21.fc20                                              
+  live555.x86_64 0:2013.11.26-1.fc20                                            
+  lzo-minilzo.x86_64 0:2.08-1.fc20                                              
+  minizip.x86_64 0:1.2.8-3.fc20                                                 
+  openal-soft.x86_64 0:1.16.0-2.fc20                                            
+  opencv-core.x86_64 0:2.4.7-6.fc20                                             
+  schroedinger.x86_64 0:1.0.11-5.fc20                                           
+  soxr.x86_64 0:0.1.1-2.fc20                                                    
+  vlc-core.x86_64 0:2.1.5-1.fc20                                                
+  xcb-util-keysyms.x86_64 0:0.3.9-3.fc20                                        
+  xvidcore.x86_64 0:1.3.2-5.fc20                                                
+  zvbi.x86_64 0:0.2.33-16.fc20                                                  
+
+Complete!
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Resolving Dependencies
+--> Running transaction check
+---> Package transmission.x86_64 0:2.84-1.fc20 will be installed
+--> Processing Dependency: transmission-gtk for package: transmission-2.84-1.fc20.x86_64
+--> Processing Dependency: transmission-cli for package: transmission-2.84-1.fc20.x86_64
+--> Running transaction check
+---> Package transmission-cli.x86_64 0:2.84-1.fc20 will be installed
+--> Processing Dependency: transmission-common for package: transmission-cli-2.84-1.fc20.x86_64
+---> Package transmission-gtk.x86_64 0:2.84-1.fc20 will be installed
+--> Running transaction check
+---> Package transmission-common.x86_64 0:2.84-1.fc20 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                   Arch         Version             Repository     Size
+================================================================================
+Installing:
+ transmission              x86_64       2.84-1.fc20         updates        18 k
+Installing for dependencies:
+ transmission-cli          x86_64       2.84-1.fc20         updates       259 k
+ transmission-common       x86_64       2.84-1.fc20         updates       732 k
+ transmission-gtk          x86_64       2.84-1.fc20         updates       814 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+3 Dependent packages)
+
+Total download size: 1.8 M
+Installed size: 6.5 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              2.5 MB/s | 1.8 MB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction (shutdown inhibited)
+  Installing : transmission-common-2.84-1.fc20.x86_64                       1/4 
+  Installing : transmission-cli-2.84-1.fc20.x86_64                          2/4 
+  Installing : transmission-gtk-2.84-1.fc20.x86_64                          3/4 
+  Installing : transmission-2.84-1.fc20.x86_64                              4/4 
+  Verifying  : transmission-2.84-1.fc20.x86_64                              1/4 
+  Verifying  : transmission-common-2.84-1.fc20.x86_64                       2/4 
+  Verifying  : transmission-cli-2.84-1.fc20.x86_64                          3/4 
+  Verifying  : transmission-gtk-2.84-1.fc20.x86_64                          4/4 
+
+Installed:
+  transmission.x86_64 0:2.84-1.fc20                                             
+
+Dependency Installed:
+  transmission-cli.x86_64 0:2.84-1.fc20                                         
+  transmission-common.x86_64 0:2.84-1.fc20                                      
+  transmission-gtk.x86_64 0:2.84-1.fc20                                         
+
+Complete!
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Resolving Dependencies
+--> Running transaction check
+---> Package qbittorrent.x86_64 1:3.1.10-1.fc20 will be installed
+--> Processing Dependency: libtorrent-rasterbar.so.7()(64bit) for package: 1:qbittorrent-3.1.10-1.fc20.x86_64
+--> Processing Dependency: libQtSolutions_SingleApplication-2.6.so.1()(64bit) for package: 1:qbittorrent-3.1.10-1.fc20.x86_64
+--> Running transaction check
+---> Package qtsingleapplication.x86_64 0:2.6.1-9.fc20 will be installed
+--> Processing Dependency: libQtSolutions_LockedFile-2.4.so.1()(64bit) for package: qtsingleapplication-2.6.1-9.fc20.x86_64
+---> Package rb_libtorrent.x86_64 0:0.16.11-2.fc20 will be installed
+--> Processing Dependency: libGeoIP.so.1()(64bit) for package: rb_libtorrent-0.16.11-2.fc20.x86_64
+--> Running transaction check
+---> Package GeoIP.x86_64 0:1.5.1-3.fc20 will be installed
+---> Package qtlockedfile.x86_64 0:2.4-7.fc20 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                  Arch        Version                Repository    Size
+================================================================================
+Installing:
+ qbittorrent              x86_64      1:3.1.10-1.fc20        updates      2.6 M
+Installing for dependencies:
+ GeoIP                    x86_64      1.5.1-3.fc20           fedora        22 M
+ qtlockedfile             x86_64      2.4-7.fc20             fedora        29 k
+ qtsingleapplication      x86_64      2.6.1-9.fc20           fedora        38 k
+ rb_libtorrent            x86_64      0.16.11-2.fc20         updates      1.1 M
+
+Transaction Summary
+================================================================================
+Install  1 Package (+4 Dependent packages)
+
+Total download size: 25 M
+Installed size: 53 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              2.8 MB/s |  25 MB  00:09     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction (shutdown inhibited)
+  Installing : GeoIP-1.5.1-3.fc20.x86_64                                    1/5 
+  Installing : rb_libtorrent-0.16.11-2.fc20.x86_64                          2/5 
+  Installing : qtlockedfile-2.4-7.fc20.x86_64                               3/5 
+  Installing : qtsingleapplication-2.6.1-9.fc20.x86_64                      4/5 
+  Installing : 1:qbittorrent-3.1.10-1.fc20.x86_64                           5/5 
+  Verifying  : rb_libtorrent-0.16.11-2.fc20.x86_64                          1/5 
+  Verifying  : qtlockedfile-2.4-7.fc20.x86_64                               2/5 
+  Verifying  : 1:qbittorrent-3.1.10-1.fc20.x86_64                           3/5 
+  Verifying  : GeoIP-1.5.1-3.fc20.x86_64                                    4/5 
+  Verifying  : qtsingleapplication-2.6.1-9.fc20.x86_64                      5/5 
+
+Installed:
+  qbittorrent.x86_64 1:3.1.10-1.fc20                                            
+
+Dependency Installed:
+  GeoIP.x86_64 0:1.5.1-3.fc20                                                   
+  qtlockedfile.x86_64 0:2.4-7.fc20                                              
+  qtsingleapplication.x86_64 0:2.6.1-9.fc20                                     
+  rb_libtorrent.x86_64 0:0.16.11-2.fc20                                         
+
+Complete!
+====> Adicionando Mp3 codec!
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+No package gstreamer1-ffmpeg available.
+Package gstreamer1-libav-1.2.4-3.fc20.x86_64 already installed and latest version
+Package gstreamer1-plugins-good-1.2.4-2.fc20.x86_64 already installed and latest version
+Package gstreamer1-plugins-ugly-1.2.4-1.fc20.x86_64 already installed and latest version
+No package gstreamer1-plugins-bad available.
+Package gstreamer1-plugins-bad-free-1.2.4-1.fc20.x86_64 already installed and latest version
+No package gstreamer1-plugins-bad-nonfree available.
+Package gstreamer-ffmpeg-0.10.13-14.fc20.x86_64 already installed and latest version
+No package gstreamer-libav available.
+Package gstreamer-plugins-good-0.10.31-10.fc20.x86_64 already installed and latest version
+Package gstreamer-plugins-ugly-0.10.19-14.fc20.x86_64 already installed and latest version
+Package gstreamer-plugins-bad-free-0.10.23-20.fc20.x86_64 already installed and latest version
+Resolving Dependencies
+--> Running transaction check
+---> Package ffmpeg.x86_64 0:2.1.5-1.fc20 will be installed
+---> Package gstreamer-plugins-bad.x86_64 0:0.10.23-5.fc20 will be installed
+---> Package gstreamer-plugins-bad-nonfree.x86_64 0:0.10.23-2.fc19 will be installed
+--> Processing Dependency: libfaac.so.0()(64bit) for package: gstreamer-plugins-bad-nonfree-0.10.23-2.fc19.x86_64
+--> Running transaction check
+---> Package faac.x86_64 0:1.28-5.fc19 will be installed
+--> Processing Dependency: libmp4v2.so.0()(64bit) for package: faac-1.28-5.fc19.x86_64
+--> Running transaction check
+---> Package libmp4v2.x86_64 0:1.5.0.1-15.fc20 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                    Arch   Version         Repository              Size
+================================================================================
+Installing:
+ ffmpeg                     x86_64 2.1.5-1.fc20    rpmfusion-free-updates 1.3 M
+ gstreamer-plugins-bad      x86_64 0.10.23-5.fc20  rpmfusion-free-updates 165 k
+ gstreamer-plugins-bad-nonfree
+                            x86_64 0.10.23-2.fc19  rpmfusion-nonfree       27 k
+Installing for dependencies:
+ faac                       x86_64 1.28-5.fc19     rpmfusion-nonfree       82 k
+ libmp4v2                   x86_64 1.5.0.1-15.fc20 fedora                 245 k
+
+Transaction Summary
+================================================================================
+Install  3 Packages (+2 Dependent packages)
+
+Total download size: 1.8 M
+Installed size: 7.5 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                               25 kB/s | 1.8 MB  01:15     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction (shutdown inhibited)
+  Installing : libmp4v2-1.5.0.1-15.fc20.x86_64                              1/5 
+  Installing : faac-1.28-5.fc19.x86_64                                      2/5 
+  Installing : gstreamer-plugins-bad-nonfree-0.10.23-2.fc19.x86_64          3/5 
+  Installing : ffmpeg-2.1.5-1.fc20.x86_64                                   4/5 
+  Installing : gstreamer-plugins-bad-0.10.23-5.fc20.x86_64                  5/5 
+  Verifying  : gstreamer-plugins-bad-0.10.23-5.fc20.x86_64                  1/5 
+  Verifying  : gstreamer-plugins-bad-nonfree-0.10.23-2.fc19.x86_64          2/5 
+  Verifying  : libmp4v2-1.5.0.1-15.fc20.x86_64                              3/5 
+  Verifying  : faac-1.28-5.fc19.x86_64                                      4/5 
+  Verifying  : ffmpeg-2.1.5-1.fc20.x86_64                                   5/5 
+
+Installed:
+  ffmpeg.x86_64 0:2.1.5-1.fc20                                                  
+  gstreamer-plugins-bad.x86_64 0:0.10.23-5.fc20                                 
+  gstreamer-plugins-bad-nonfree.x86_64 0:0.10.23-2.fc19                         
+
+Dependency Installed:
+  faac.x86_64 0:1.28-5.fc19          libmp4v2.x86_64 0:1.5.0.1-15.fc20         
+
+Complete!
+====> Instalando VirtualBox...
+/etc/yum.repos.d/virtualbox.repo
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Resolving Dependencies
+--> Running transaction check
+---> Package VirtualBox-4.3.x86_64 0:4.3.18_96516_fedora18-1 will be installed
+--> Processing Dependency: libpng15.so.15(PNG15_0)(64bit) for package: VirtualBox-4.3-4.3.18_96516_fedora18-1.x86_64
+--> Processing Dependency: libpng15.so.15()(64bit) for package: VirtualBox-4.3-4.3.18_96516_fedora18-1.x86_64
+--> Running transaction check
+---> Package libpng15.x86_64 0:1.5.17-2.fc20 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package            Arch       Version                     Repository      Size
+================================================================================
+Installing:
+ VirtualBox-4.3     x86_64     4.3.18_96516_fedora18-1     virtualbox      68 M
+Installing for dependencies:
+ libpng15           x86_64     1.5.17-2.fc20               updates         92 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+1 Dependent package)
+
+Total download size: 68 M
+Installed size: 145 M
+Downloading packages:
+Public key for VirtualBox-4.3-4.3.18_96516_fedora18-1.x86_64.rpm is not installed
+--------------------------------------------------------------------------------
+Total                                              245 kB/s |  68 MB  04:44     
+Retrieving key from https://www.virtualbox.org/download/oracle_vbox.asc
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction (shutdown inhibited)
+  Installing : libpng15-1.5.17-2.fc20.x86_64                                1/2 
+  Installing : VirtualBox-4.3-4.3.18_96516_fedora18-1.x86_64                2/2 
+
+Creating group 'vboxusers'. VM users must be member of that group!
+
+No precompiled module for this kernel found -- trying to build one. Messages
+emitted during module compilation will be logged to /var/log/vbox-install.log.
+
+Stopping VirtualBox kernel modules [  OK  ]
+Uninstalling old VirtualBox DKMS kernel modules [  OK  ]
+Trying to register the VirtualBox kernel modules using DKMS [  OK  ]
+Starting VirtualBox kernel modules [  OK  ]
+  Verifying  : libpng15-1.5.17-2.fc20.x86_64                                1/2 
+  Verifying  : VirtualBox-4.3-4.3.18_96516_fedora18-1.x86_64                2/2 
+
+Installed:
+  VirtualBox-4.3.x86_64 0:4.3.18_96516_fedora18-1                               
+
+Dependency Installed:
+  libpng15.x86_64 0:1.5.17-2.fc20                                               
+
+Complete!
+====> Instalando Image Tools!
+Loaded plugins: fastestmirror, langpacks, refresh-packagekit
+Loading mirror speeds from cached hostfile
+ * fedora: mirror.globo.com
+ * rpmfusion-free: mirror.pw
+ * rpmfusion-free-updates: mirror.pw
+ * rpmfusion-nonfree: mirror.pw
+ * rpmfusion-nonfree-updates: mirror.pw
+ * updates: mirror.globo.com
+Resolving Dependencies
+--> Running transaction check
+---> Package pinta.x86_64 0:1.4-2.fc19 will be installed
+--> Processing Dependency: mono(pango-sharp) = 2.12.0.0 for package: pinta-1.4-2.fc19.x86_64
+--> Processing Dependency: mono(gtk-sharp) = 2.12.0.0 for package: pinta-1.4-2.fc19.x86_64
+--> Processing Dependency: mono(glib-sharp) = 2.12.0.0 for package: pinta-1.4-2.fc19.x86_64
+--> Processing Dependency: mono(gdk-sharp) = 2.12.0.0 for package: pinta-1.4-2.fc19.x86_64
+--> Processing Dependency: mono(Mono.Addins.Gui) = 0.6.0.0 for package: pinta-1.4-2.fc19.x86_64
+--> Processing Dependency: mono(Mono.Addins) = 0.6.0.0 for package: pinta-1.4-2.fc19.x86_64
+--> Processing Dependency: mono-addins for package: pinta-1.4-2.fc19.x86_64
+--> Running transaction check
+---> Package gtk-sharp2.x86_64 0:2.12.11-9.fc20 will be installed
+---> Package mono-addins.x86_64 0:0.6.2-8.fc20 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package             Arch           Version                Repository      Size
+================================================================================
+Installing:
+ pinta               x86_64         1.4-2.fc19             fedora         662 k
+Installing for dependencies:
+ gtk-sharp2          x86_64         2.12.11-9.fc20         fedora         681 k
+ mono-addins         x86_64         0.6.2-8.fc20           fedora         413 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+2 Dependent packages)
+
+Total download size: 1.7 M
+Installed size: 6.0 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              449 kB/s | 1.7 MB  00:03     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction (shutdown inhibited)
+  Installing : gtk-sharp2-2.12.11-9.fc20.x86_64                             1/3 
+  Installing : mono-addins-0.6.2-8.fc20.x86_64                              2/3 
+  Installing : pinta-1.4-2.fc19.x86_64                                      3/3 
+  Verifying  : gtk-sharp2-2.12.11-9.fc20.x86_64                             1/3 
+  Verifying  : pinta-1.4-2.fc19.x86_64                                      2/3 
+  Verifying  : mono-addins-0.6.2-8.fc20.x86_64                              3/3 
+
+Installed:
+  pinta.x86_64 0:1.4-2.fc19                                                     
+
+Dependency Installed:
+  gtk-sharp2.x86_64 0:2.12.11-9.fc20      mono-addins.x86_64 0:0.6.2-8.fc20     
+
+Complete!

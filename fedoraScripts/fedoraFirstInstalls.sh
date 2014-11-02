@@ -30,6 +30,7 @@ yum -y install yum-plugin-fastestmirror
 yum -y update
 yum -y update kernel
 yum --security update
+yum -y install wget
 
 
 echo "============================================================================="

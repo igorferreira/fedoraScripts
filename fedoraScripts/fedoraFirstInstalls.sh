@@ -13,11 +13,11 @@ echo "==========================================================================
 
 cd /home/igorferreira/Downloads
 #sudo su - 
+usermod -a -G webdev igorferreira
 
 echo "============================================================================="
 echo "====> Adicionando repositorio "
 echo "=============================================================================" 
-
 yum -y localinstall --nogpgcheck http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-stable.noarch.rpm http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-stable.noarch.rpm
 
 
@@ -25,13 +25,17 @@ echo "==========================================================================
 echo "====> Fazendo update "
 echo "=============================================================================" 
 
-yum clean all
+yum-config-manager --enable development
+yum-config-manager --enable updates-testing
+
+#yum clean all
+
+yum -y install wget
 yum -y install yum-plugin-fastestmirror
 yum -y update
 yum -y update kernel
 yum --security update
-yum -y install wget
-
+  
 
 echo "============================================================================="
 echo "====> Dependencias para instalar o oracle XE"
@@ -73,6 +77,7 @@ echo "==========================================================================
 echo "====> Instalando yum-extensions... "
 echo "=============================================================================" 
 
+yum -y install gnome-packagekit
 yum -y install yum-presto
 yum -y install yum-fastestmirror
 yum -y install yum-security
@@ -93,6 +98,20 @@ yum -y install gnome-system-monitor
 yum -y install menuentry
 yum -y install grub-customizer-4.0.6-1.fc20
 
+#http://unix.stackexchange.com/questions/83764/how-to-install-gnome-shell-extensions-in-19-fedora
+gnome_extension_repo= "/etc/yum.repos.d/fedora-gnome-shell-extensions.repo"
+if [ ! -f $gnome_extension_repo ]; then
+   echo "[fedora-gnome-shell-extensions]
+name=Modify and extend GNOME Shell functionality and behavior
+baseurl=http://repos.fedorapeople.org/repos/hien/gnome-shell-extensions/fedora-$releasever/$basearch/
+enabled=1
+skip_if_unavailable=1
+gpgcheck=0" > $gnome_extension_repo
+else
+  echo "Já existe Repositorio do fedora-gnome-shell-extensions"
+fi
+
+
 #echo "====> #1.5 Fix Gnome Shell User Theme Bug " 
 #echo "====> Simply run following command: "
 #echo 
@@ -108,12 +127,32 @@ yum -y install unrar
 
 skype_rpm="/home/igorferreira/Downloads/skype-4.3.0.37-fedora.i586.rpm"
 
-echo "Skype RPM: " $skype_rpm 
+echo "=======> Skype RPM: " $skype_rpm 
 if [ ! -f $skype_rpm ]; then
-	wget "http://www.skype.com/pt-br/download-skype/skype-for-linux/downloading/?type=fedora32" -O $skype_rpm
+   #http://www.skype.com/pt-br/download-skype/skype-for-linux/downloading/?type=dynamic
+   wget -O $skype_rpm "http://www.skype.com/pt-br/download-skype/skype-for-linux/downloading/?type=fedora32" 
+   chown igorferreira $skype_rpm
 fi
-chown igorferreira $skype_rpm
-rpm -v -i $skype_rpm
+#rpm -v -i $skype_rpm
+su -c "yum -y install $skype_rpm"
+
+echo "=======> hipchat..."
+$hipchat_repo="/etc/yum.repos.d/atlassian-hipchat.repo"
+if [ ! -f $hipchat_repo ]; then
+   cat << EOF > $hipchat_repo $hipchat_repo
+[atlassian-hipchat]
+name=Atlassian Hipchat
+baseurl=http://downloads.hipchat.com/linux/yum
+enabled=1
+gpgcheck=1
+gpgkey=https://www.hipchat.com/keys/hipchat-linux.key
+EOF
+
+else
+  echo "=======> Já existe Repositorio do hipchat"
+fi
+
+yum -y install hipchat 
 
 echo 
 echo 
@@ -134,13 +173,21 @@ yum -y install pygobject2 libgtop2
 nautilus_dropbox="/home/igorferreira/Downloads/nautilus-dropbox-1.6.2-1.fedora.x86_64.rpm"
 
 if [ ! -f $nautilus_dropbox ]; then
-	wget "https://www.dropbox.com/download?dl=packages/fedora/nautilus-dropbox-1.6.2-1.fedora.x86_64.rpm" -O $nautilus_dropbox
-	chown igorferreira $nautilus_dropbox
+   wget -O $nautilus_dropbox "https://www.dropbox.com/download?dl=packages/fedora/nautilus-dropbox-1.6.2-1.fedora.x86_64.rpm" 
+   chown igorferreira $nautilus_dropbox
 else
-	echo " nautilus dropbox rpm ja existe!"
+   echo " nautilus dropbox rpm ja existe!"
 fi
 #rpm -i $nautilus_dropbox
 su -c "yum -y install $nautilus_dropbox"
+
+echo "=======> dropbox CLI !"
+echo "=============================================================================" 
+
+mkdir -p ~/bin
+wget -O "~/bin/dropbox.py" "https://www.dropbox.com/download?dl=packages/dropbox.py"
+chmod +x "~/bin/dropbox.py"
+
 
 echo 
 echo 
@@ -150,24 +197,34 @@ echo "==========================================================================
 grive_rpm="/home/igorferreira/Downloads/grive-0.3.0-13.3.x86_64.rpm"
 
 if [ ! -f $grive_rpm ]; then
-   wget "https://www.thefanclub.co.za/sites/default/files/public/downloads/grive-0.3.0-13.3.x86_64.rpm&nid=171" -O $grive_rpm
+   wget -O $grive_rpm "https://www.thefanclub.co.za/sites/default/files/public/downloads/grive-0.3.0-13.3.x86_64.rpm" 
    chown igorferreira $grive_rpm
 else
-	echo " google Drive rpm ja existe!"
+   echo " google Drive rpm ja existe!"
 fi 
 #rpm -i $grive_rpm
-su -c "yum -y install $grive_rpm"
+#su -c "yum -y install $grive_rpm"
+yum -y install $grive_rpm
 
 grivetools_rpm="/home/igorferreira/Downloads/grive-tools-1.10.noarch.rpm"
 
-if [ ! -f $grivetools_rpm ]; then
-   wget "https://www.thefanclub.co.za/sites/default/files/public/downloads/grive-tools-1.10.noarch_0.rpm&nid=171" -O $grivetools_rpm
-   chown igorferreira $grivetools_rpm
-else
-	echo " google Drive tools rpm ja existe!"
-fi
+#if [ ! -f $grivetools_rpm ]; then
+#   wget -O $grivetools_rpm "https://www.thefanclub.co.za/sites/default/files/public/downloads/grive-tools-1.10.noarch_0.rpm" 
+#   chown igorferreira $grivetools_rpm
+#else
+#   echo " google Drive tools rpm ja existe!"
+#fi
 #rpm -i $grive-tools_rpm
-su -c "yum -y install $grivetools_rpm"
+#su -c "yum -y install $grivetools_rpm"
+
+insync="/home/igorferreira/Downloads/insync-1.0.34.31801-1.x86_64.rpm"
+if [ ! -f $insync ]; then
+   wget -O $insync "http://s.insynchq.com/builds/insync-1.0.34.31801-1.x86_64.rpm"
+   chown igorferreira $insync
+else 
+   echo "$insync arquivo ja foi baixado"
+fi
+yum -y install $insync
 
 echo 
 echo 
@@ -204,7 +261,7 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 EOF
 
 else
-	echo "====> arquivo do repositorio ja existe: /etc/yum.repos.d/virtualbox.repo"
+   echo "====> Respositorio do chrome ja existe"
 fi
 
 echo "============================================================================="
@@ -231,6 +288,7 @@ yum -y install xfce4-terminal
 yum -y install nmap
 yum -y install openvpn
 yum -y install filezilla
+yum -y install google-chrome
 yum -y install google-chrome-beta
 
 
@@ -253,7 +311,6 @@ yum -y install nano
 yum -y install git
 yum -y install subversion
 yum -y install curl
-yum -y install wget
 yum -y install python-devel
 yum -y install java icedtea-web
 
@@ -262,9 +319,9 @@ yum -y install java icedtea-web
 #echo "sublime..."
 #yum-config-manager --disable sublime2
 #if [ ! -f /etc/yum.repos.d/sublime2.repo]; then
-	#wget -O /etc/yum.repos.d/sublime2.repo http://repo.cloudhike.com/sublime2/fedora/sublime2.repo
+    #wget -O /etc/yum.repos.d/sublime2.repo http://repo.cloudhike.com/sublime2/fedora/sublime2.repo
 #else
-	#echo "Arquivo do repositorio do sublime2 existe"
+    #echo "Arquivo do repositorio do sublime2 existe"
 #fi
 
 #yum -y install sublime-text
@@ -305,16 +362,44 @@ yum -y install gstreamer{1,}-{ffmpeg,libav,plugins-{good,ugly,bad{,-free,-nonfre
 
 echo "============================================================================="
 echo "====> Instalando VirtualBox..."
+echo "http://www.if-not-true-then-false.com/2010/install-virtualbox-with-yum-on-fedora-centos-red-hat-rhel"
 echo "=============================================================================" 
+
+rpm -qa kernel |sort -V |tail -n 1
+yum -y install binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers kernel-devel dkms
 
 virtualbox_repo="/etc/yum.repos.d/virtualbox.repo"
 if [ ! -f $virtualbox_repo ]; then
-	wget http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo -O $virtualbox_repo
-	echo "$virtualbox_repo"
+   wget -O $virtualbox_repo "http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo" 
+   echo "$virtualbox_repo"
 else
-	echo "arquivo do repositorio existe: /etc/yum.repos.d/virtualbox.repo"
+   echo "arquivo do repositorio existe: /etc/yum.repos.d/virtualbox.repo"
 fi
+
+if [ `grep -c KERN_DIR /home/igorferreira/.bashrc` == 0 ]; then 
+   echo "# Current running kernel on Fedora ##" > /home/igorferreira/.bashrc
+   echo "KERN_DIR=/usr/src/kernels/`uname -r`" > /home/igorferreira/.bashrc
+   echo "export KERN_DIR"
+else 
+   echo " Ja foi adicionado nao adiciona"; 
+fi
+
+## Current running kernel on CentOS and Red Hat (RHEL) ##
+#KERN_DIR="/usr/src/kernels/`uname -r`-`uname -m`"
+ 
+## Fedora example ##
+#KERN_DIR=/usr/src/kernels/2.6.33.5-124.fc13.i686
+ 
+## CentOS and Red Hat (RHEL) example ##
+#KERN_DIR=/usr/src/kernels/2.6.18-194.11.1.el5-x86_64
+ 
+## Export KERN_DIR ##
+
+
 yum -y install VirtualBox-4.3
+sudo service vboxdrv setup
+sudo usermod -a -G vboxusers igorferreira
+
 #vmware-config-tools.pl
 #sudo groupadd oracle
 #sudo groupadd web
@@ -330,6 +415,7 @@ echo "==========================================================================
 echo "====================================== FIM =================================="
 echo "============================================================================="
 
+#echo "============================================================================="
 #echo "====> Instalando Apache"
 #echo "============================================================================="
 #echo "A primeira coisa é instalar o httpd, o php e o mysql, como root rode:"
@@ -344,7 +430,6 @@ echo "==========================================================================
 #mysqladmin -u root password welcome1
 #yum -y install python-devel
 #yum -y install mysql-devel
-
 #rm -rf ~/git_projects #just in case
 #mkdir ~/git_projects && cd ~/git_projects
 #git clone git://github.com/paradoxxxzero/gnome-shell-system-monitor-applet.git

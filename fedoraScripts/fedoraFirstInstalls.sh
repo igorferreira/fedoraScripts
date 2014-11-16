@@ -137,17 +137,16 @@ fi
 su -c "yum -y install $skype_rpm"
 
 echo "=======> hipchat..."
-$hipchat_repo="/etc/yum.repos.d/atlassian-hipchat.repo"
+hipchat_repo="/etc/yum.repos.d/atlassian-hipchat.repo"
+
 if [ ! -f $hipchat_repo ]; then
-   cat << EOF > $hipchat_repo $hipchat_repo
-[atlassian-hipchat]
+echo "[atlassian-hipchat]
 name=Atlassian Hipchat
 baseurl=http://downloads.hipchat.com/linux/yum
 enabled=1
 gpgcheck=1
 gpgkey=https://www.hipchat.com/keys/hipchat-linux.key
-EOF
-
+" > $hipchat_repo
 else
   echo "=======> Já existe Repositorio do hipchat"
 fi
@@ -313,6 +312,11 @@ yum -y install subversion
 yum -y install curl
 yum -y install python-devel
 yum -y install java icedtea-web
+yum -y install ruby-devel
+yum -y install rubygem-gem*
+gem install ghi
+yum -y install npm
+npm install gh -g
 
 #echo
 #echo
@@ -333,6 +337,7 @@ echo "=======> python..."
 echo "=============================================================================" 
 
 yum -y install python-pip
+yum -y install python-novaclient
 #echo 'alias pip="/usr/bin/pip-python"' >> $HOME/.bashrc
 
 
@@ -377,8 +382,8 @@ else
 fi
 
 if [ `grep -c KERN_DIR /home/igorferreira/.bashrc` == 0 ]; then 
-   echo "# Current running kernel on Fedora ##" > /home/igorferreira/.bashrc
-   echo "KERN_DIR=/usr/src/kernels/`uname -r`" > /home/igorferreira/.bashrc
+   echo "# Current running kernel on Fedora ##" >> /home/igorferreira/.bashrc
+   echo "KERN_DIR=/usr/src/kernels/`uname -r`" >> /home/igorferreira/.bashrc
    echo "export KERN_DIR"
 else 
    echo " Ja foi adicionado nao adiciona"; 
